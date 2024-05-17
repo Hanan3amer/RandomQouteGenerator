@@ -7,7 +7,7 @@ body {
 }
 
 .heading {
-    bottom: 80%;
+    top: 5px;
     left: 50%;
     transform: translate(-50%);
 }

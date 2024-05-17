@@ -30,10 +30,6 @@ var qoute = [
     {
         qoute_text: '“It is better to be hated for what you are than to be loved for what you are not.”',
         auther_name: "― Andre Gide, Autumn Leaves"
-    },
-    {
-        qoute_text: '“I believe that everything happens for a reason. People change so that you can learn to let go, things go wrong so that you appreciate them when they`re right, you believe lies so you eventually learn to trust no one but yourself, and sometimes good things fall apart so better things can fall together.”',
-        auther_name: "― Marilyn Monroe"
     }
 ];
 var btnele = document.getElementById('r-btn');
