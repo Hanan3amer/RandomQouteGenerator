@@ -1,0 +1,55 @@
+body {
+    background-image: url(../assests/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.heading {
+    bottom: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn:hover {
+    color: #516d91;
+    background-color: #E5EDF5;
+    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+}
+
+h6,
+p,
+h2 {
+    font-family: "Sevillana", cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: #56646f;
+}
+
+.btn {
+    color: #7e97b8;
+    background-color: #e0e8ef;
+    border-color: rgba(255, 255, 255, 0.333);
+    transform: translate(0px, 0px) rotate(0deg);
+    transition: 0.2s;
+    box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+}
+
+.container {
+    box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+}
+
+.btn:hover i {
+    animation: spin 1000ms infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
